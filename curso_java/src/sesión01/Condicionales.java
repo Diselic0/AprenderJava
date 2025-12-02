@@ -66,6 +66,7 @@ public class Condicionales {
         // Para este ejercicio simulamos los datos, pero podrías usar scanner.nextInt()
         calcular(10, 5, '+'); 
         calcular(10, 5, '/');
+        calcular(10, 5, 'x');
         
         scanner.close();
     }
@@ -102,14 +103,6 @@ public class Condicionales {
      * Default: Imprimir "Operación no válida".
      */
     public static void calcular(int a, int b, char operacion) {
-        // TODO: Crea un switch(operacion)
-        /*
-         switch(operacion) {
-            case '+': 
-                // imprimir suma...
-                break;
-            // resto de casos...
-         }
-         */
+    	System.out.print("Operación " + a + " " + operacion + " " + b + ": ");
     }
 }

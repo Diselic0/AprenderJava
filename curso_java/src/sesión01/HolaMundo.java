@@ -25,6 +25,7 @@ public class HolaMundo {
         
         // Llamada a tu ejercicio (ahora mismo no hace nada, tienes que completarlo abajo)
         imprimirPresentacion();
+    }
 
     /**
      * EJERCICIO 1:
